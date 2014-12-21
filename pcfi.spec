@@ -2,10 +2,9 @@
 
 Name:           pcfi
 Version:        2010.08.09
-Release:        8.20111103git%{commit}%{?dist}
+Release:        8.20111103git%{commit}.1
 Summary:        PDF Core Font Information
-
-Group:          Applications/Publishing
+Group:          Publishing
 License:        BSD
 URL:            https://github.com/jukka/pcfi
 Source0:        https://github.com/jukka/pcfi/tarball/%{commit}/jukka-pcfi-%{commit}.tar.gz
