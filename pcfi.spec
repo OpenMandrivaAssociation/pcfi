@@ -1,8 +1,9 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global commit bd245c9
 
 Name:           pcfi
 Version:        2010.08.09
-Release:        8.20111103git%{commit}.1
+Release:        8.20111103git%{commit}.2
 Summary:        PDF Core Font Information
 Group:          Publishing
 License:        BSD
