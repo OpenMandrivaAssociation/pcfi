@@ -12,6 +12,9 @@ Source0:        https://github.com/jukka/pcfi/tarball/%{commit}/jukka-pcfi-%{com
 # This now points to Adobe's sourceforge pages
 Source1:        License
 BuildArch:      noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 Requires:       javapackages-filesystem
 
